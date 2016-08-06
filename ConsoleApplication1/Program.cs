@@ -12,8 +12,10 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             DateTime dt;
-            if (DateTime.TryParseExact("24-01-2013",
-                                        "dd/MM/yyyy",
+            string date = "24-01-2013";
+            string format = "dd/MM/yyyy";
+            if (DateTime.TryParseExact(date,
+                                        format,
                                         CultureInfo.InvariantCulture,
                                         DateTimeStyles.None,
                 out dt))
