@@ -25,7 +25,7 @@ namespace ConsoleApplication1
                 Console.WriteLine("String is not formated to date");
             }
 
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
